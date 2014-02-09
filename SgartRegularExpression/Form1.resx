@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="mainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtSource.Text" xml:space="preserve">
+    <value>Getting 45 entries:
+&gt;&gt; Dn: CN="Paolino Paperino",OU=users,OU=GENOVA,DC=paperopoli,DC=it
+	15&gt; proxyAddresses: X400:c=US;a= ;p=paperopoli;o=paperopoli;s=Paperino;g=Paolino;; CCMAIL:Paperino, Paolino at paperopoli; x400:c=US;a= ;p=paperopoli;o=paperopoli;s=a.Paolino;; ccmail:a.Paolino at paperopoli; smtp:Paolino@paperopoli.it; x400:c=US;a= ;p=paperopoli;o=paperopoli;s=Paolino;; ms:paperopoli/paperopoli/Paolino; ccmail:Paolino at paperopoli; fax:Paolino Paperino[Paolino]@/o=paperopoli/ou=paperopoli; FAX:Paolino Paperino[a.Paolino]@/o=paperopoli/ou=paperopoli; MS:paperopoli/paperopoli/APaolino; SMTP:a.Paolino@paperopoli.it; smtp:Paolino@topolinia.it; smtp:a.Paolino@topolinia.it; fax:Paperino Paolino[Paolino]@/o=paperopoli/ou=paperopoli; 
+&gt;&gt; Dn: CN=administrator,OU=Recipients,DC=paperopoli,DC=it
+ http://www.sgart.it
+	23&gt; proxyAddresses:82.115.45.8 fax:administrator[administrator]5547@/o=paperopoli/ou=paperopoli; FAX:administrator[administrator]3458@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]2731@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]25104@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]13783@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]7558@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]2611@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]12659@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]16538@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]6225@/o=paperopoli/ou=paperopoli; smtp:administrator3@paperopoli.it; ccmail:administrator3 at paperopoli; x400:c=US;a= ;p=paperopoli;o=paperopoli;s=administrator3;; ms:paperopoli/paperopoli/ADMINISTR3; fax:administrator[administrator]1779@/o=paperopoli/ou=paperopoli; CCMAIL:administrator at paperopoli; X400:c=US;a= ;p=paperopoli;o=paperopoli;s=administrator;; MS:paperopoli/paperopoli/ADMINISTRA; SMTP:administrator@paperopoli.it; fax:administrator[administrator]2550@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]17476@/o=paperopoli/ou=paperopoli; fax:administrator[administrator]1023@/o=paperopoli/ou=paperopoli; smtp:administrator2@topolinia.it; 
+&gt;&gt; Dn: CN=Administrator,CN=Users,DC=paperopoli,DC=it
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv\Parameters]
+
+info@sgart.it
+&lt;div id='header'&gt;&lt;a href='http://www.sgart.it' target='_top'&gt;&lt;img src='../images/logos/logo.gif' width='160' height='46' title='Sgart.it' alt='logo Sgart.it' /&gt;&lt;/a&gt;&lt;/div&gt;
+	6&gt; proxyAddresses: smtp:Administrator@topolinia.it; SMTP:Administrator2@paperopoli.it; MS:paperopoli/paperopoli/ADMINISTR2; X400:c=US;a= ;p=paperopoli;o=paperopoli;s=Administrator2;; CCMAIL:Administrator2 at paperopoli; FAX:Administrator[Administrator]@/o=paperopoli/ou=paperopoli; 
+&gt;&gt; Dn: CN=Microsoft Schedule\+ Free/Busy Connector (NEODIMIO),CN=Users,DC=paperopoli,DC=it
+	6&gt; 192.168.1.100 proxyAddresses: smtp:AdminSch@topolinia.it; FAX:Microsoft Schedule+ Free/Busy Connector (NEODIMIO)[AdminSch]@/o=paperopoli/ou=paperopoli; SMTP:AdminSch@paperopoli.it; X400:c=US;a= ;p=paperopoli;o=paperopoli;s=AdminSch;; CCMAIL:AdminSch at paperopoli; MS:paperopoli/paperopoli/ADMINSCH; 
+&gt;&gt; Dn: CN=Ag. Milano,OU=users,OU=Milano,DC=paperopoli,DC=it
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv\Security]
+ Il volume nell'unità X è Windows
+ Numero di serie del volume: AD45-1F07
+
+ Directory di E:\Documents and Settings\
+
+19/03/2006  22.21    &lt;DIR&gt;          .
+19/03/2006  22.21    &lt;DIR&gt;          ..
+19/03/2006  22.21               153 .appletviewer
+04/06/2005  18.18    &lt;DIR&gt;          .dia
+06/01/2006  19.40             2.425 .keystore
+13/05/2005  01.27    &lt;DIR&gt;          Application Data
+28/03/2006  21.15    &lt;DIR&gt;          Desktop
+18/03/2006  22.42    &lt;DIR&gt;          Documenti
+06/12/2005  00.27                12 intlname.ols
+24/06/2005  22.14    &lt;DIR&gt;          Menu Avvio
+10/03/2006  13.18    &lt;DIR&gt;          Preferiti
+12/05/1993  01.00           398.416 VBRUN300.DLL
+07/03/1994  09.14             2.399 VBRUN300.TXT
+14/05/2005  17.01    &lt;DIR&gt;          VSWebCache
+17/05/2005  00.21    &lt;DIR&gt;          WINDOWS
+               5 File        403.405 byte
+              10 Directory   3.510.747.136 byte disponibili
+
+http://www.sgart.it
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAddFavorite.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NC
+        NwAAAdlJREFUOE+dk8tLVGEYhw9ooi5y4SJoEUhKkihouBCC0ELKoYJCBsUZzcHEFoGCoRC0bNF/4CIk
+        iBaSJWmYireRKW8zWiJ4TUgNL+MFNUrQp+/9zhHOGULSF35wznf4Pd97O8ZxwfIrRNbryWO/I55fH2NO
+        B2C6Fr5kQuAyTHhPDpGbNUQp3GzA7uT/Qwi5YPQGTFXD7FMYvqozsT47g/V2WHgBY3ehN5G9tjPQk2Ce
+        iXmxAZZe8rs9lh9vDLbeq2z8F2DyIfx8jfHnUxz0nYOvbjNlMdrNa62w6Xcq3MXGO9WmRgOD7WE0RMxi
+        shuPpEy+YBol3zIo/ZwCG73aLCCzDHWw8yEKvj/Xc3eYbQDfvIuKUBaH3Wdh5a2zJ6y2mBBVrzYpqJYN
+        ULvtoXJAjVX1zbI5Q3dbmiNZqPQ8g8nmzUo1i7k8O/DxeOEaD8ZuUTJyHXefKyILaaY1e7lZan60fI/6
+        vVJtfrLvoTxcQMHcFXLGL3K7P90J2G2Nhpk6CN7UgDL/JaqCmVpys3c1X0OLAnla7u6IDFaaVGcFMJQD
+        4/fNVRappfIGUsmbyqCw5fy/65eQ0ciy6LHKklghz0WdqWSHko4H6B/naLYRUdx/R9dc2GRfacP4C8ld
+        0WfvjHbWAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>39</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8ACgoKCgoKCgoKCgoKCgoKCgr5+fn5+fn5+fn5+fn5+QoK+QoKCgoKCgoKCgoKCvkKCiYKCgoK
+        CgoKCgoKCgomCgomCgoKCiYmJiYmCgoKJgoKLCwsLCwsCgoKLAoKCiwKCgoKCgoKCgoKCiwKCgosCgoy
+        MjIyMjIyMjIyCgoKMgoKMgoKCgoKCgoKCgoKCjIKCjIKCgp6MjIyMjIyMjIyCgp6CgoKegoKCgoKCgoK
+        CgoKegoKCnoKCgoKenp6enoKCnoKCgp6enp6enoKCgp6Cgr7CgoKCgoKCgoKCgoK+woK+/v7+/v7+/v7
+        +/v7+/sKCgoKCgoKCgoKCgoKCgoKCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
